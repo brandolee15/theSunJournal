@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Document</title>
     
 </head>
@@ -16,19 +15,17 @@
     <div class="main">
         <section class="input-section">
             <form id="entry-form">
-                <textarea id="entry-textbox" placeholder="Give it a message, character limit: 10" onkeydown="charLimit(this)" onkeyup="charLimit(this)"></textarea><br>
+                <input type="text" id="entry-title" placeholder="Give it a title...">
+                <textarea id="entry-textbox" placeholder="Give it a message"></textarea><br>
                 <button type="submit">Submit</button>
-
-                <label for="search">Search Gif: </label>
-                <input id="search" type="search" />
-                <button id="btnSearch">Go</button>
             </form>
         </section>
-        <ul id="posts">
-        </ul>
+        <ol id="entryList">
+
+        </ol>
     </div>
 
+    <script src="data.js"></script>
     <script defer src="script.js"></script>
-    <script defer src="giphy.js"></script>
 </body>
 </html>
