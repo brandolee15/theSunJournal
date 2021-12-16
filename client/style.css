@@ -10,6 +10,23 @@
     }
 }
 
+/* FRONT PAGE: THREE text LINES */
+.firstLine{
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 70px;
+    font-weight: bolder;
+    /* margin: 1em;
+    padding: 1em; */
+}
+.secondLine{
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    /* margin: 1em;
+    padding: 1em; */
+}
+
+
 /* textarea {
     size: ;
     width: 80%;
